@@ -14,6 +14,10 @@ header {
   padding-left: 15px;
 }
 
+.menuPct {
+  padding-left: 15px;
+}
+
 .none {
   display: none;
 }
@@ -23,6 +27,7 @@ header {
   height: 270px;
   border: 1px grey solid;
   border-radius: 5px;
+  background-color: rgb(232, 232, 232);
 }
 
 input {
@@ -40,4 +45,24 @@ input {
 
 input:focus {
   outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  padding: 10px;
+  font-weight: 500;
+}
+
+a:hover {
+  color: rgb(65, 65, 65);
+}
+
+.link {
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-left: 10px;
 }
